@@ -1,6 +1,6 @@
 import java.util.*;
 public class fourSumEqualTarget {
-    public static List<List<Integer>> fourSum(int[] nums, int target) {
+    public static List<List<Integer>> fourSum(int[] nums, int target) { 
         List<List<Integer>> res = new  ArrayList<>();
         int n =nums.length;
         Arrays.sort(nums);
