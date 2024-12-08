@@ -5,7 +5,7 @@ public class pascalTriangle {
         if(numRows == 0 ){
             return res;   
         }  
-        res.add( new ArrayList<>());
+        res.add( new ArrayList<>()); 
         res.get(0).add(1);
 
         for(int i = 1; i< numRows ; i++){
