@@ -3,7 +3,7 @@ public class pascalTriangle {
     public static  List<List<Integer>> generate(int numRows) {
         List<List<Integer>> res = new ArrayList<>();
         if(numRows == 0 ){
-            return res; 
+            return res;  
         }  
         res.add( new ArrayList<>());
         res.get(0).add(1);
