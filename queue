@@ -1,0 +1,23 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class QueueExample {
+    public static void main(String[] args) {
+        // Create a Queue
+        Queue<Integer> queue = new LinkedList<>();
+
+        // Enqueue elements
+        queue.add(10);
+        queue.add(20);
+        queue.add(30);
+
+        // Dequeue an element
+        System.out.println("Dequeued element: " + queue.remove());
+
+        // Peek the front element
+        System.out.println("Front element: " + queue.peek());
+
+        // Check if the queue is empty
+        System.out.println("Is queue empty? " + queue.isEmpty());
+    }
+}
