@@ -3,7 +3,7 @@ public class Trie {
 
     // Constructor   
     public Trie() {     
-        root = new TrieNode();
+        root = new TrieNode(); 
     } 
 
     // Method to insert a word into the Trie
