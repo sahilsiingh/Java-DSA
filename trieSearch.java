@@ -1,7 +1,7 @@
 public class Trie {
     private TrieNode root;
 
-    // Constructor    
+    // Constructor     
     public Trie() {     
         root = new TrieNode(); 
     } 
