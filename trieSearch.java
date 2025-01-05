@@ -4,7 +4,7 @@ public class Trie {
     // Constructor
     public Trie() { 
         root = new TrieNode();
-    }
+    } 
 
     // Method to insert a word into the Trie
     public void insert(String word) {
